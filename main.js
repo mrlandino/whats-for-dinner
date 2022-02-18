@@ -80,7 +80,6 @@ function errorAlert(){
    };
   }
   if(inputsCounter === 4){
-    // .innerText = "PLEASE CHOOSE 1!";
     hideCookPot()
     recipeBox.innerHTML = "";
     recipeBox.innerHTML += `<section class="recipe-container"><h2 class="current-dish" id="error-message">*Please select a dish on left!</h2></section>`;
